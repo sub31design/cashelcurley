@@ -1,0 +1,36 @@
+.internal-link-box__wrap .internal-link-box__link {
+	display: block;
+	padding: 0.5em 1em;
+	overflow: hidden;
+	background: #eee;
+	border: 1px solid #aaa;
+	max-width: 80%;
+	transition: background 0.5s ease;
+}
+
+.internal-link-box__wrap .internal-link-box__link:hover {
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+}
+
+.internal-link-box__link img {
+	float: left;
+	display: block;
+	max-width: 25%;
+	margin: 0 1em 0 0;
+}
+
+.internal-link-box__link h4 {
+	clear: none;
+	margin: 0 0 0.25em;
+}
+
+.internal-link-box__link small {
+	display: block;
+}
+
+
+.internal-link-box__link > em {
+	display: block;
+	text-align: right;
+}
